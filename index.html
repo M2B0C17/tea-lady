@@ -13,22 +13,22 @@
 		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
 		<form action="">
-			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
-			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
+			<label for="Nombre"> Nombre:</label>
+			<input id= "n" type="text">
+			<label for="Apellido"> Apellido:</label>
+			<input id= "a" type="text">
 			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
+			<input id= "e" type="email">
 			<label for="Dirección">Dirección: </label>
-			<input type="text">
+			<input id= "d" type="text">
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+			<input id= "f" type="text">
 			<label for="">Selecciona un pack:</label>
-			<select name="" id="">
-				<option value="">Escoje tu opción</option>
-				<option value="">Pack de té clásico (Té negro)</option>
-				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta</option>
-				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
+			<select name="sel">
+				<option value="Escoje tu opción">Escoje tu opción</option>
+				<option value="Pack de té clásico (Té negro)">Pack de té clásico (Té negro)</option>
+				<option value="Pack frutales (Hierbas y té con aromatizado con fruta">Pack frutales (Hierbas y té con aromatizado con fruta</option>
+				<option value="Pack variedades (Té verde, rojo y blanco)">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
 			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
@@ -36,7 +36,12 @@
 		</form>
 	</section>
 	<section id="clientes">
+		<div class="añadirDato">
+			<p id= "mostrarNombre"></p>
+			<p id= "mostrarApellido"></p>
+			<p id= "mostrarNombre"></p>
 		<!-- Acá van los datos de ingresados por los clientes -->
+		</div>
 	</section>
 	<section id="productos">
 		<!-- Acá puedes crear lo que quieras-->
