@@ -1,5 +1,27 @@
 /* Escribe acá tus estilos*/
 body {
 	background: #afc68d;
-	color: #52820e;
+	color: #52820e;;
+    background-size: cover;
+}
+
+h1 {
+  font-size: : 50px;
+  font-family: futura;
+  font-weight: normal;
+  text-align: center;
+}
+
+button {
+  font-size: 15px;
+  background: #345900;
+  font-family: futura;
+  color: white;
+  line-height: 23px;
+}
+
+button:hover { /* cambios al pasar el mouse */
+  background: #52820e;
+  color: black;
+  cursor: pointer; /* aparece la mano señalando en el boton */
 }
